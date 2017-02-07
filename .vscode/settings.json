@@ -1,0 +1,13 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.rulers": [80],
+    "editor.renderWhitespace": true,
+    "editor.renderIndentGuides": true,
+    "files.exclude": {
+      "src/app/**/*.js": true,
+      "src/app/**/*.js.map": true
+    },
+    "window.zoomLevel": 0
+}
