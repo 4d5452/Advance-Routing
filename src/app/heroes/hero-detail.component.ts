@@ -25,6 +25,8 @@ import { slideInDownAnimation } from '../animations';
   animations: [ slideInDownAnimation ]
 })
 export class HeroDetailComponent implements OnInit{
+  hero: Hero;
+  
   @HostBinding('@routeAnimation') routeAnimation = true;
   @HostBinding('style.display') display = 'block';
   @HostBinding('style.position') position = 'absolute';
