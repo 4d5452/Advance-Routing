@@ -2,13 +2,16 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
+import { AppComponent }  from './app.component';
+import { PageNotFoundComponent } from './404.component';
+
 import { AppRoutingModule } from './app-routing.module';
 import { HeroesModule } from './heroes/hero.module';
 import { CrisisCenterModule } from './crisis-center/crisis-center.module';
 
-import { AppComponent }  from './app.component';
-import { PageNotFoundComponent } from './404.component';
 import { ComposeMessageComponent } from './compose-message.component';
+
+import { AdminModule } from './admin/admin.module';
 
 @NgModule({
   imports:      [ 
@@ -16,6 +19,7 @@ import { ComposeMessageComponent } from './compose-message.component';
     FormsModule,
     HeroesModule,
     CrisisCenterModule,
+    AdminModule,
     AppRoutingModule
   ],
   declarations: [ 
